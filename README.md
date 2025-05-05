@@ -1,169 +1,55 @@
-````markdown
-# CheckMe - Flutter Todo App
+# CheckMe – Todo App
 
-![App Screenshot](screenshots/app_preview.png) <!-- Add actual screenshot later -->
+CheckMe is a feature-rich **To-Do List App** built with **Flutter**. It allows users to manage their tasks efficiently with a simple, intuitive interface. The app incorporates modern state management techniques using **Riverpod** and supports both **light** and **dark mode** themes.
 
-A beautiful, feature-rich todo application built with Flutter using Riverpod for state management.
+## 📌 Objectives
 
-## ✨ Features
+- Practice working with lists and UI updates using `setState` and **Riverpod** state management.
+- Build multiple screens and navigate between them.
+- Get comfortable with layout widgets and user interactions.
 
-- ✅ User authentication with email validation
-- 📝 Create, edit, and delete todos
-- ⏰ Due dates with overdue indicators
-- 🔍 Search todos by title/description
-- 🗂️ Categorize todos (Personal, Work, School, Urgent)
-- 🌓 Light/Dark/System theme modes
-- 🚀 Riverpod state management
-- 📱 Responsive UI for all screen sizes
+## 🚀 Features
 
-## 📱 Screens
+### 1. **Login Screen**
+- **Email and Password Validation**: Ensure the email format is correct and password meets basic criteria.
+- Users must log in with valid credentials before accessing the app.
 
-| Login Screen | Home Screen | Add Todo |
-|--------------|-------------|----------|
-| ![Login](screenshots/login.png) | ![Home](screenshots/home.png) | ![Add](screenshots/add_todo.png) |
+### 2. **Home Screen (Todo Dashboard)**
+- **Welcome Message**: Display the user's name and avatar.
+- **Todo List**: Display a list of todos using a `ListView` widget with checkboxes.
+- **Add Todo**: A floating action button opens a form to add new todos, including a title and optional description.
+- **Mark as Done**: Todos can be marked as completed, with a strikethrough or faded style to indicate completion.
+- **Delete Todo**: Long-press or swipe a todo to delete it from the list.
 
-| Todo Details | Dark Mode | Categories |
-|--------------|-----------|------------|
-| ![Details](screenshots/details.png) | ![Dark](screenshots/dark_mode.png) | ![Categories](screenshots/categories.png) |
+### 3. **Todo Details Page (Optional Advanced)**
+- Tapping on a todo opens a detailed view showing the full description, creation date, and an option to edit the todo.
 
-## 🛠️ Technical Stack
+### 4. **Due Date**
+- Users can set a due date for each todo.
+- Display **“Overdue”** if the due date has passed.
 
-- **Framework**: Flutter 3.x
-- **State Management**: Flutter Riverpod
-- **Theming**: Custom light/dark theme system
-- **Dependencies**:
-  - intl: ^0.18.1 (for date formatting)
-  - google_fonts: ^4.0.4 (for beautiful typography)
+### 5. **Search Todos**
+- Add a search bar to help users quickly find todos by title or description.
 
-## 🚀 Getting Started
+### 6. **Todo Categories**
+- Assign a category (e.g., “School”, “Personal”, “Urgent”) to each todo.
+- Filter todos by category.
 
-### Prerequisites
-- Flutter SDK (>=3.0.0)
-- Android Studio/VSCode
-- Git
+### 7. **State Management with Riverpod**
+- Replaced traditional `setState()` with **Riverpod** for local and global state management.
+- `Providers` and `StateNotifiers` are used for both screen-specific and shared state.
+  
+### 8. **Theme Switching**
+- Switch between **light mode**, **dark mode**, or the **system default theme** based on user preferences.
+  
+## 📦 Packages Used
+- `flutter_riverpod`: A modern state management solution for Flutter.
+- `provider`: A wrapper around Riverpod for easier integration.
+- `flutter_localizations`: Supports multiple languages.
+- `intl`: For date and time formatting.
+  
+## ⚡ Installation
 
-### Installation
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Hugues6221394/Mobile-Programming-Flutter.git
-   ```
-2. Install dependencies:
-   ```bash
-   flutter pub get
-   ```
-3. Run the app:
-   ```bash
-   flutter run
-   ```
-
-## 🏗️ Project Structure
-
-```
-lib/
-├── main.dart                  # App entry point
-├── models/
-│   └── todo.dart              # Todo data model
-├── providers/
-│   ├── todo_provider.dart     # Todo state management
-│   └── theme_provider.dart    # Theme state management
-├── screens/
-│   ├── login_screen.dart      # Login UI
-│   ├── home_screen.dart       # Main todo list
-│   ├── todo_details_screen.dart # Todo details
-│   └── edit_todo_screen.dart  # Edit todo UI
-└── theme/
-    └── app_theme.dart         # Theme configurations
-```
-
-## 🤝 Contributing
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-Distributed under the MIT License.
-
-## ✉️ Contact
-
-Your Name - your.email@example.com
-
-Project Link: [https://github.com/Hugues6221394/Mobile-Programming-Flutter](https://github.com/Hugues6221394/Mobile-Programming-Flutter)
-````
-
-## 2. Add Supporting Files
-
-1. **Create a `screenshots` folder** and add:
-   - `app_preview.png` (main screenshot)
-   - `login.png`, `home.png`, `add_todo.png`, etc.
-
-2. **Add a LICENSE file** (MIT recommended):
-   - Create `LICENSE` file with open-source license text
-
-3. **Create a .gitignore** (if missing):
-   ```
-   /android/
-   /ios/
-   /build/
-   .DS_Store
-   .env
-   ```
-
-## 3. Enhance Repository Settings
-
-1. **Add repository topics**: 
-   - `flutter`, `dart`, `todo-app`, `riverpod`, `state-management`
-
-2. **Add a project description**:
-   - "A professional todo app with Riverpod state management and theme switching"
-
-3. **Pin important repositories** (if personal profile)
-
-## 4. Create Release (Optional but Recommended)
-
-1. Go to GitHub → Releases → Draft a new release
-2. Tag version: `v1.0.0`
-3. Release title: "Initial Stable Release"
-4. Description:
-   ```
-   ## What's New
-   - Complete todo management system
-   - Riverpod state management
-   - Theme switching (light/dark/system)
-   - Category filtering
-   - Search functionality
-   ```
-
-## 5. Professional Touchups
-
-1. **Add badges** to README (top section):
-   ```markdown
-   ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat&logo=Flutter&logoColor=white)
-   ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
-   ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-   ```
-
-2. **Add a features table**:
-   ```markdown
-   | Feature          | Implementation Status |
-   |------------------|-----------------------|
-   | Authentication   | ✅ Completed          |
-   | Todo Management  | ✅ Completed          |
-   | Theme Switching  | ✅ Completed          |
-   | Search           | ✅ Completed          |
-   | Categories       | ✅ Completed          |
-   ```
-
-3. **Add a demo GIF** (record your app in action)
-
-## 6. Final Steps
-
-1. Commit all changes:
-   ```bash
-   git add .
-   git commit -m "docs: Add professional documentation and project structure"
-   git push origin master
-   ```
+   git clone https://github.com/Hugues6221394/CheckMe-Todo-App.git
