@@ -1,4 +1,4 @@
-````markdown
+
 # CheckMe – Todo App
 
 CheckMe is a feature-rich **To-Do List App** built with **Flutter**. It allows users to manage their tasks efficiently with a simple, intuitive interface. The app incorporates modern state management techniques using **Riverpod** and supports both **light** and **dark mode** themes.
