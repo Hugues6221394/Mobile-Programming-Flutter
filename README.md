@@ -19,7 +19,7 @@ CheckMe is a feature-rich **To-Do List App** built with **Flutter**. It allows u
 - **Todo List**: Display a list of todos using a `ListView` widget with checkboxes.
 - **Add Todo**: A floating action button opens a form to add new todos, including a title and optional description.
 - **Mark as Done**: Todos can be marked as completed, with a strikethrough or faded style to indicate completion.
-- **Delete Todo**: swipe a todo to delete it from the list.
+- **Delete Todo**: Long-press or swipe a todo to delete it from the list.
 
 ### 3. **Todo Details Page (Optional Advanced)**
 - Tapping on a todo opens a detailed view showing the full description, creation date, and an option to edit the todo.
@@ -53,4 +53,53 @@ CheckMe is a feature-rich **To-Do List App** built with **Flutter**. It allows u
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Hugues6221394/CheckMe-Todo-App.git
-   
+
+2. **Navigate to the project folder**:
+
+   ```bash
+   cd CheckMe-Todo-App
+   ```
+
+3. **Install dependencies**:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. **Run the app**:
+
+   ```bash
+   flutter run
+   ```
+
+## 🔨 Development
+
+### Contributing
+
+Feel free to fork the repo, make changes, and submit pull requests. Please follow these steps:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-branch`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature-branch`)
+5. Open a Pull Request
+
+### Issues
+
+If you encounter any issues, feel free to open an issue [here](https://github.com/Hugues6221394/CheckMe-Todo-App/issues).
+
+---
+
+## 💬 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+### 🚧 Roadmap
+
+* Add more advanced features like **notifications** and **cloud syncing**.
+* Implement **user authentication** (Firebase, OAuth, etc.).
+
+```
+
