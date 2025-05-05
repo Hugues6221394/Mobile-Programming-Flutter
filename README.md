@@ -19,7 +19,7 @@ CheckMe is a feature-rich **To-Do List App** built with **Flutter**. It allows u
 - **Todo List**: Display a list of todos using a `ListView` widget with checkboxes.
 - **Add Todo**: A floating action button opens a form to add new todos, including a title and optional description.
 - **Mark as Done**: Todos can be marked as completed, with a strikethrough or faded style to indicate completion.
-- **Delete Todo**: Long-press or swipe a todo to delete it from the list.
+- **Delete Todo**: swipe a todo to delete it from the list.
 
 ### 3. **Todo Details Page (Optional Advanced)**
 - Tapping on a todo opens a detailed view showing the full description, creation date, and an option to edit the todo.
@@ -53,3 +53,4 @@ CheckMe is a feature-rich **To-Do List App** built with **Flutter**. It allows u
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Hugues6221394/CheckMe-Todo-App.git
+   
