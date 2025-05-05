@@ -52,7 +52,7 @@ CheckMe is a feature-rich **To-Do List App** built with **Flutter**. It allows u
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Hugues6221394/CheckMe-Todo-App.git
+   git clone https://github.com/Hugues6221394/Mobile-Programming-Flutter/tree/master/lib
 
 2. **Navigate to the project folder**:
 
@@ -83,10 +83,6 @@ Feel free to fork the repo, make changes, and submit pull requests. Please follo
 3. Commit your changes (`git commit -am 'Add new feature'`)
 4. Push to the branch (`git push origin feature-branch`)
 5. Open a Pull Request
-
-### Issues
-
-If you encounter any issues, feel free to open an issue [here](https://github.com/Hugues6221394/CheckMe-Todo-App/issues).
 
 ---
 
