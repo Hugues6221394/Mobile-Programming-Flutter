@@ -92,10 +92,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-### 🚧 Roadmap
-
-* Add more advanced features like **notifications** and **cloud syncing**.
-* Implement **user authentication** (Firebase, OAuth, etc.).
-
-```
 
