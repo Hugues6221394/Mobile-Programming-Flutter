@@ -7,11 +7,11 @@ A production-grade todo application built with Flutter, featuring robust state m
 ## 📱 Application Preview
 
 <div align="center">
-  <img src="screenshots/login_screen.png" width="20%" alt="Login Screen"/>
-  <img src="screenshots/home.png" width="20%" alt="Home Screen"/> 
-  <img src="screenshots/dark_mode.png" width="20%" alt="Dark Mode"/>
-  <img src="screenshots/todo_details.png" width="20%" alt="Details Screen"/>
-  <img src="screenshots/add_todo.png" width="20%" alt="Add Todo"/>
+  <img src="screenshots/login_screen.png" width="19%" alt="Login Screen"/>
+  <img src="screenshots/home.png" width="19%" alt="Home Screen"/> 
+  <img src="screenshots/dark_mode.png" width="19%" alt="Dark Mode"/>
+  <img src="screenshots/todo_details.png" width="19%" alt="Details Screen"/>
+  <img src="screenshots/add_todo.png" width="19%" alt="Add Todo"/>
 </div>
 
 > Screenshots directory: `D:\Desktop\AUCA\MOBILE PROGRAMMING\FlutterApps\screenshots`
