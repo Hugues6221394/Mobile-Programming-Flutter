@@ -69,16 +69,18 @@ flutter build apk --release
 
 ```
 lib/
-├── core/
-│   ├── constants/      # App constants
-│   ├── utils/          # Helper functions
-│   └── widgets/        # Reusable components
-├── features/
-│   ├── auth/           # Authentication flow
-│   ├── todos/          # Todo management
-│   └── settings/       # Theme and preferences
-├── providers/          # State management
-└── main.dart           # App entry point
+├── models/
+│   ├── todo/ 
+├── providers/
+│   ├── todo_provider/          
+├── screens/
+│   ├── edit_todo_screen/
+│   ├── home_screen/
+│   ├── login_screen/
+│   ├── todo_details_screen/
+├── theme/
+│   ├── app_theme/     
+└── main.dart          
 ```
 
 ## 📚 Documentation
