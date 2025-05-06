@@ -1,7 +1,5 @@
 # CheckMe - Professional Todo Application
 
-![CheckMe Logo](screenshots/app_icon.png) <!-- Replace with your actual app icon -->
-
 A production-grade todo application built with Flutter, featuring robust state management with Riverpod and adaptive theme switching.
 
 ## 📱 Application Preview
