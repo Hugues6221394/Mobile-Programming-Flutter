@@ -1,4 +1,6 @@
-# CheckMe - Professional Todo Application
+# CheckMe - A Todo Application
+
+# Built by Hugues NGABONZIZA 26148
 
 A production-grade todo application built with Flutter, featuring robust state management with Riverpod and adaptive theme switching.
 
